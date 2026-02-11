@@ -1,5 +1,4 @@
-const BASE_URL = "http://localhost:8080/employee";
-
+const BASE_URL = "https://your-railway-app-url/employee";
 // Load all employees when page loads
 window.onload = function () {
     getAllEmployees();
